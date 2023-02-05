@@ -1,4 +1,4 @@
-apiVersion : apps/v1beta1
+apiVersion : apps/v1
 kind: Deployment
 metadata:
   name: monolith
@@ -11,6 +11,6 @@ spec:
     spec:
       containers:
         - name: monolith
-          image: user30acr.azurecr.io/monolith
+          image: kss01.azurecr.io/monolith:latest
           ports:
             - containerPort: 8080
