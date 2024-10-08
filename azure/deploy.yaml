@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: monolith
-          image: kss01.azurecr.io/monolith:latest
+          image: davidkss.azurecr.io/monolith:latest
           ports:
             - containerPort: 8080
