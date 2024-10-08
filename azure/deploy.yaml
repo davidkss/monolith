@@ -1,11 +1,11 @@
 apiVersion : apps/v1
 kind: Deployment
 metadata:
-  name: monolith
+  name: monolith-test
   labels:
     app: monolith
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: monolith
